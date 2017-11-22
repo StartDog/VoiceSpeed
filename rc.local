@@ -1,0 +1,21 @@
+#!/bin/sh -e
+#
+
+/root/startbt.sh
+
+sleep 1
+
+/usr/local/bin/gpsd -S 10000 /dev/ttyAMA0 -F /var/run/gpsd.sock
+
+#/usr/bin/nohup /root/scanBt.sh >/dev/null 2>&1  &
+
+#/usr/bin/nohup /usr/bin/bluelog -n >/dev/null 2>&1 &
+
+/usr/bin/nohup /root/obdscan.sh >/dev/null 2>&1 &
+
+sleep 2
+
+/usr/bin/nohup /root/amIhomec.sh >/dev/null 2>&1 &
+
+
+exit 0
