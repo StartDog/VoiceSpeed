@@ -1,4 +1,5 @@
 # VoiceSpeed
+(Not all files have been placed on github yet)
 Connects to GPS and OBDII and announces your speed and direction of heading.
 While at home (or when you get home) it uploads all the Wifi it has scanned 
 and all your gps locactions up to a server. It does not announce when it
