@@ -26,7 +26,7 @@ http://festvox.org/festival/  Might be available with raspbian through apt insta
 
 4. GPS daughterboard for RPI - Note this one uses a gps usb device now
 
-5. wifi USB dongle - not sure of later RPI have this built in
+5. wifi USB dongle - not sure of later RPI have this built in but the external antenna has greater range
 
 6. bluetooth USB dongle - not sure if late RPI have this built in I know RPI zero W has wifi
 
