@@ -24,7 +24,7 @@ This is the dongle
 3. festival Text to speech software great stuff to me
 http://festvox.org/festival/  Might be available with raspbian through apt install
 
-4. GPS daughterboard for RPI
+4. GPS daughterboard for RPI - Note this one uses a gps usb device now
 
 5. wifi USB dongle - not sure of later RPI have this built in
 
